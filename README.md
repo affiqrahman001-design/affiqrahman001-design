@@ -1,7 +1,7 @@
 ## Hi there 👋
 # Affiq Rahman
 
-Web Developer | Simple Business Websites & Mini Systems for SMEs
+**Web Developer | Simple Business Websites & Mini Systems for SMEs**
 
 I build clean, practical, and business-focused websites using custom frontend work, Laravel backend systems, and simple automation flows.
 
