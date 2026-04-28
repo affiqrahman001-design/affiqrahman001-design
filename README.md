@@ -1,5 +1,8 @@
-## Hi there 👋
-# Affiq Rahman
+<p align="center">
+  <img src="assets/animated-logo.svg" alt="Animated Affiq Rahman banner" width="100%" />
+</p>
+
+# Hi there 👋 I'm Affiq Rahman
 
 **Web Developer | Simple Business Websites & Mini Systems for SMEs**
 
