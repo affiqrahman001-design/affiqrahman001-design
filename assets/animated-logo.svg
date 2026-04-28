@@ -1,0 +1,34 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="260" rx="28" fill="#0b1020"/>
+
+  <g opacity="0.35">
+    <circle cx="140" cy="60" r="2" fill="#8bd3ff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="270" cy="180" r="2" fill="#b388ff">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="910" cy="70" r="2" fill="#8bd3ff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="190" r="2" fill="#b388ff">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3.5s" repeatCount="indefinite"/>
+    <text x="600" y="105" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
+      Affiq Rahman
+    </text>
+    <text x="600" y="155" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" fill="#a8b3cf">
+      Web Developer • Laravel • Business Websites • Mini Systems
+    </text>
+    <text x="600" y="197" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#8bd3ff">
+      ZyloChord | by Affiq Rahman
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <rect x="22" y="22" width="1156" height="216" rx="22" stroke="#26314f" stroke-width="2"/>
+</svg>
