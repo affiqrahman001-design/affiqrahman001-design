@@ -29,31 +29,35 @@ GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 
 ## Notes
 
-● This is not malware.
-● This is not a hacking tool.
-● This does not bypass Windows security.
-● It is simply a Windows special folder / settings shortcut.
+- This is not malware.
+- This is not a hacking tool.
+- This does not bypass Windows security.
+- It is simply a Windows special folder / settings shortcut.
 
 ---
 
 ## What I’m learning and building
 
-● Laravel websites
-● Secure business forms
-● Admin submission systems
-● Music hub systems
-● AI-assisted content workflows
-● Website security basics
-● Useful Windows and developer snippets
+- Laravel websites
+- Secure business forms
+- Admin submission systems
+- Music hub systems
+- AI-assisted content workflows
+- Website security basics
+- Useful Windows and developer snippets
 
 ---
 
 ## Website
+
 https://affiqrahman.com
 
 ---
 
 ## Creator
+
 Affiq Rahman
+
 ZyloChord | by Affiq Rahman
+
 https://www.youtube.com/@affiqrahman
