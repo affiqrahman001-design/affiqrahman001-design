@@ -53,6 +53,5 @@ This shortcut can help when checking or managing:
 
 ## Author
 
-Main website:
-
+Main website: <br>
 https://affiqrahman.com
