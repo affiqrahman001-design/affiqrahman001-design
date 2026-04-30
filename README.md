@@ -88,6 +88,7 @@ This project is built to demonstrate practical backend logic, API structure, cus
   <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" />
   <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/TSX-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC" />
 </p>
 
@@ -100,6 +101,24 @@ This project is built to demonstrate practical backend logic, API structure, cus
   <img src="https://img.shields.io/badge/Backend_Logic-111827?style=for-the-badge&logo=serverless&logoColor=FFFFFF" />
 </p>
 
+### Python & Automation
+
+<p>
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img src="https://img.shields.io/badge/Automation_Scripts-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data_Processing-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CLI_Tools-111827?style=for-the-badge" />
+</p>
+
+### API Testing & Package Tools
+
+<p>
+  <img src="https://img.shields.io/badge/REST_API-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Postman-111827?style=for-the-badge&logo=postman&logoColor=FF6C37" />
+  <img src="https://img.shields.io/badge/Composer-111827?style=for-the-badge&logo=composer&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/NPM-111827?style=for-the-badge&logo=npm&logoColor=CB3837" />
+</p>
+
 ### Tools, Design & Deployment
 
 <p>
@@ -110,6 +129,20 @@ This project is built to demonstrate practical backend logic, API structure, cus
   <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma&logoColor=F24E1E" />
   <img src="https://img.shields.io/badge/Netlify-111827?style=for-the-badge&logo=netlify&logoColor=00C7B7" />
   <img src="https://img.shields.io/badge/Exabytes-111827?style=for-the-badge&logo=googlecloud&logoColor=FFFFFF" />
+</p>
+
+### Systems I Build
+
+<p>
+  <img src="https://img.shields.io/badge/Contact_Form_System-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Admin_Submission_System-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/QR_Menu_Flow-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cart_&_Checkout_Flow-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Payment_Simulation-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Order_Tracking-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Support_Ticket_Flow-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Website_Security_Basics-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI_Assisted_Workflows-111827?style=for-the-badge" />
 </p>
 
 ---
