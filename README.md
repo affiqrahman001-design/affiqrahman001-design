@@ -5,11 +5,11 @@
 <h1 align="center">Hi, I'm Affiq Rahman 👋</h1>
 
 <p align="center">
-  <strong>Web Developer • Laravel Backend • Business Websites • Mini Systems</strong>
+  <strong>Web Developer • Laravel Backend • Modern Frontend • Business Websites • Mini Systems</strong>
 </p>
 
 <p align="center">
-  I build practical, clean, and business-focused websites for real-world use.
+  I build practical, clean, and business-focused websites and web systems for real-world use.
 </p>
 
 <p align="center">
@@ -22,11 +22,13 @@
 
 ## About Me
 
-I'm a web developer focused on building simple, useful, and reliable digital systems for businesses.
+I'm a web developer focused on building practical websites, backend systems, and mini digital tools for businesses.
 
-My work combines custom frontend structure, Laravel backend development, database workflows, contact forms, admin systems, and practical automation. I enjoy turning business problems into clean web solutions that are easy to use and easy to maintain.
+My work includes custom frontend development, Laravel backend systems, database workflows, API structure, contact forms, admin dashboards, QR-based customer flows, and business-focused web solutions.
 
-I am currently building my portfolio around real-world business systems, especially websites and mini web applications for SMEs.
+I have worked with traditional web stacks like HTML, CSS, JavaScript, PHP, Laravel, and MySQL, while also building and exploring modern frontend tools such as React, Next.js, TypeScript, and Tailwind CSS.
+
+I enjoy turning real business problems into clean digital systems that are simple to use, easy to maintain, and built with trust and clarity.
 
 ---
 
@@ -37,10 +39,13 @@ I am currently building my portfolio around real-world business systems, especia
 - Laravel backend systems
 - Contact form systems
 - Admin submission dashboards
+- API-based workflows
 - QR menu and ordering flows
 - Mini business systems
 - Website cleanup and technical fixes
+- Website security improvements
 - Simple automation flows for business operations
+- AI-assisted content and workflow systems
 
 ---
 
@@ -62,21 +67,59 @@ Core features include:
 - Support ticket flow
 - Admin-ready backend structure
 
-This project is built to demonstrate practical backend logic, API structure, and business-focused system design.
+This project is built to demonstrate practical backend logic, API structure, customer flow, and business-focused system design.
 
 ---
 
-## Tech Stack
+## Tech Stack & Tools
+
+### Core Web Development
 
 <p>
-  <img src="https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=E34F26" />
-  <img src="https://img.shields.io/badge/CSS-111827?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img src="https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img src="https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6" />
   <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   <img src="https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php&logoColor=777BB4" />
+</p>
+
+### Modern Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC" />
+</p>
+
+### Backend & Database
+
+<p>
   <img src="https://img.shields.io/badge/Laravel-111827?style=for-the-badge&logo=laravel&logoColor=FF2D20" />
   <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1" />
+  <img src="https://img.shields.io/badge/API_Development-111827?style=for-the-badge&logo=fastapi&logoColor=009688" />
+  <img src="https://img.shields.io/badge/Backend_Logic-111827?style=for-the-badge&logo=serverless&logoColor=FFFFFF" />
+</p>
+
+### Tools, Design & Deployment
+
+<p>
   <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" />
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/VS_Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" />
+  <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma&logoColor=F24E1E" />
+  <img src="https://img.shields.io/badge/Netlify-111827?style=for-the-badge&logo=netlify&logoColor=00C7B7" />
+  <img src="https://img.shields.io/badge/Cloudflare-111827?style=for-the-badge&logo=cloudflare&logoColor=F38020" />
+</p>
+
+### Currently Building & Improving
+
+<p>
+  <img src="https://img.shields.io/badge/Business_Websites-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mini_Systems-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/QR_Menu_Flow-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Admin_Dashboard-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Website_Security_Basics-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI_Assisted_Workflows-111827?style=for-the-badge" />
 </p>
 
 ---
@@ -107,6 +150,16 @@ I am especially interested in helping small businesses with:
 - Simple business websites
 - Website maintenance
 - Mini internal systems
+- Admin submission systems
+- Business workflow automation
+
+---
+
+## Useful Snippets
+
+I also document useful developer and computer workflow notes.
+
+- [Windows God Mode Shortcut](snippets/windows-godmode.md)
 
 ---
 
@@ -130,5 +183,5 @@ https://affiqrahman.com
 ---
 
 <p align="center">
-  <strong>Building practical websites and mini systems for real businesses.</strong>
+  <strong>Building practical websites, backend systems, and mini digital tools for real businesses.</strong>
 </p>
