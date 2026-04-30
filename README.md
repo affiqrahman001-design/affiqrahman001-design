@@ -112,15 +112,16 @@ This project is built to demonstrate practical backend logic, API structure, cus
   <img src="https://img.shields.io/badge/Exabytes_Hosting-111827?style=for-the-badge" />
 </p>
 
-### Currently Building & Improving
+### Tools, Design & Deployment
 
 <p>
-  <img src="https://img.shields.io/badge/Business_Websites-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mini_Systems-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/QR_Menu_Flow-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Admin_Dashboard-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Website_Security_Basics-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI_Assisted_Workflows-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/VS_Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" />
+  <img src="https://img.shields.io/badge/Cursor-111827?style=for-the-badge&logo=cursor&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma&logoColor=F24E1E" />
+  <img src="https://img.shields.io/badge/Netlify-111827?style=for-the-badge&logo=netlify&logoColor=00C7B7" />
+  <img src="https://img.shields.io/badge/Exabytes-111827?style=for-the-badge&logo=serverfault&logoColor=FFFFFF" />
 </p>
 
 ---
