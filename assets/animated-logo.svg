@@ -22,10 +22,10 @@
       Affiq Rahman
     </text>
     <text x="600" y="155" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" fill="#a8b3cf">
-      Web Developer • Laravel • Business Websites • Mini Systems
+      Software Product Builder • Systems • Automation
     </text>
     <text x="600" y="197" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#8bd3ff">
-      ZyloChord | by Affiq Rahman
+      Full-Stack Engineering • Developer Tooling
       <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
     </text>
   </g>
