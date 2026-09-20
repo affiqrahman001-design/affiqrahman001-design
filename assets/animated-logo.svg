@@ -1,34 +1,225 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="260" rx="28" fill="#0b1020"/>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="20" x2="1130" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/>
+      <stop offset="0.46" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#090B13"/>
+    </linearGradient>
 
-  <g opacity="0.35">
-    <circle cx="140" cy="60" r="2" fill="#8bd3ff">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+    <radialGradient id="cyanAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(270 72) rotate(18) scale(360 180)">
+      <stop stop-color="#28B8FF" stop-opacity="0.23"/>
+      <stop offset="0.55" stop-color="#28B8FF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#28B8FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violetAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(955 186) rotate(-16) scale(330 170)">
+      <stop stop-color="#7C4DFF" stop-opacity="0.22"/>
+      <stop offset="0.58" stop-color="#7C4DFF" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="plate" x1="145" y1="43" x2="1060" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141C31"/>
+      <stop offset="0.45" stop-color="#0D1425"/>
+      <stop offset="1" stop-color="#090F1C"/>
+    </linearGradient>
+
+    <linearGradient id="plateRim" x1="165" y1="50" x2="1025" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6FD7FF" stop-opacity="0.55"/>
+      <stop offset="0.2" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="0.58" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#9B78FF" stop-opacity="0.58"/>
+    </linearGradient>
+
+    <linearGradient id="metalText" x1="392" y1="74" x2="801" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9C7DC"/>
+      <stop offset="0.16" stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#E7EDF7"/>
+      <stop offset="0.7" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BFD8F1"/>
+    </linearGradient>
+
+    <linearGradient id="accentText" x1="360" y1="130" x2="835" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9DCFF"/>
+      <stop offset="0.55" stop-color="#D3DAF4"/>
+      <stop offset="1" stop-color="#B6A8FF"/>
+    </linearGradient>
+
+    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#52CDFF" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#52CDFF" stop-opacity="0.75"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="0.78" stop-color="#9D7CFF" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#9D7CFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.50" stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#A9B9D9" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="diag" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="5"/>
+    </pattern>
+
+    <filter id="plateShadow" x="-15%" y="-35%" width="130%" height="190%">
+      <feDropShadow dx="0" dy="19" stdDeviation="20" flood-color="#000000" flood-opacity="0.62"/>
+      <feDropShadow dx="-7" dy="-4" stdDeviation="15" flood-color="#36C4FF" flood-opacity="0.07"/>
+      <feDropShadow dx="8" dy="5" stdDeviation="15" flood-color="#7C4DFF" flood-opacity="0.08"/>
+    </filter>
+
+    <filter id="titleDepth" x="-20%" y="-60%" width="140%" height="230%">
+      <feDropShadow dx="0" dy="8" stdDeviation="3" flood-color="#000000" flood-opacity="0.95"/>
+      <feDropShadow dx="0" dy="3" stdDeviation="1.5" flood-color="#1B263D" flood-opacity="1"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#BDEBFF" flood-opacity="0.10"/>
+    </filter>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <clipPath id="plateClip">
+      <rect x="145" y="43" width="910" height="174" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- cinematic base -->
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="28" fill="url(#microGrid)"/>
+  <rect width="1200" height="260" rx="28" fill="url(#diag)"/>
+  <ellipse cx="270" cy="72" rx="355" ry="176" fill="url(#cyanAura)">
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="955" cy="186" rx="330" ry="170" fill="url(#violetAura)">
+    <animate attributeName="opacity" values="1;0.80;1" dur="5.8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- restrained systems graph -->
+  <g opacity="0.32">
+    <path d="M75 164 C128 134 167 135 219 158 C258 176 294 177 330 159" stroke="#51CFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+    <path d="M875 88 C922 68 964 72 1005 96 C1041 117 1083 114 1126 92" stroke="#9B78FF" stroke-opacity="0.35" stroke-width="1.2"/>
+    <circle cx="75" cy="164" r="2.7" fill="#75DCFF"/>
+    <circle cx="219" cy="158" r="2.7" fill="#75DCFF"/>
+    <circle cx="330" cy="159" r="2.7" fill="#75DCFF"/>
+    <circle cx="875" cy="88" r="2.7" fill="#B49BFF"/>
+    <circle cx="1005" cy="96" r="2.7" fill="#B49BFF"/>
+    <circle cx="1126" cy="92" r="2.7" fill="#B49BFF"/>
+
+    <circle cx="219" cy="158" r="7" fill="#4DD3FF" fill-opacity="0.16" filter="url(#nodeGlow)">
+      <animate attributeName="r" values="6;10;6" dur="2.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="270" cy="180" r="2" fill="#b388ff">
-      <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="910" cy="70" r="2" fill="#8bd3ff">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1040" cy="190" r="2" fill="#b388ff">
-      <animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/>
+    <circle cx="1005" cy="96" r="7" fill="#9976FF" fill-opacity="0.16" filter="url(#nodeGlow)">
+      <animate attributeName="r" values="7;11;7" dur="3.2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
+  <!-- 3D plate -->
+  <g filter="url(#plateShadow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 1;0 -3;0 1" dur="5s" repeatCount="indefinite"/>
+
+      <!-- back extrusion -->
+      <rect x="149" y="49" width="902" height="174" rx="30" fill="#030711" fill-opacity="0.92"/>
+      <rect x="147" y="46" width="906" height="174" rx="30" fill="#080D18"/>
+
+      <!-- main plate -->
+      <rect x="145" y="43" width="910" height="174" rx="30" fill="url(#plate)"/>
+      <rect x="145.75" y="43.75" width="908.5" height="172.5" rx="29.25" stroke="url(#plateRim)" stroke-width="1.5"/>
+
+      <!-- bevel / inner rim -->
+      <rect x="154" y="52" width="892" height="156" rx="23" stroke="#FFFFFF" stroke-opacity="0.055"/>
+      <path d="M176 62H1024" stroke="url(#edgeLight)" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M186 199H1014" stroke="#000000" stroke-opacity="0.45" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- corner light pools -->
+      <ellipse cx="226" cy="67" rx="106" ry="56" fill="#40C9FF" fill-opacity="0.055" filter="url(#softGlow)"/>
+      <ellipse cx="981" cy="194" rx="110" ry="58" fill="#916FFF" fill-opacity="0.055" filter="url(#softGlow)"/>
+
+      <!-- cinematic sweep -->
+      <g clip-path="url(#plateClip)">
+        <rect x="-300" y="32" width="250" height="200" fill="url(#sweep)" transform="skewX(-18)">
+          <animate attributeName="x" values="-320;1340" dur="7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+
+  <!-- title extrusion -->
+  <g filter="url(#titleDepth)">
+    <text x="600" y="108" text-anchor="middle"
+          font-family="Verdana, Arial, sans-serif"
+          font-size="54" font-weight="700"
+          fill="#02040A">Affiq Rahman</text>
+    <text x="600" y="105.5" text-anchor="middle"
+          font-family="Verdana, Arial, sans-serif"
+          font-size="54" font-weight="700"
+          fill="#192136">Affiq Rahman</text>
+    <text x="600" y="101.5" text-anchor="middle"
+          font-family="Verdana, Arial, sans-serif"
+          font-size="54" font-weight="700"
+          fill="url(#metalText)">Affiq Rahman</text>
+  </g>
+
+  <!-- metallic top highlight -->
+  <text x="600" y="99.8" text-anchor="middle"
+        font-family="Verdana, Arial, sans-serif"
+        font-size="54" font-weight="700"
+        fill="#FFFFFF" fill-opacity="0.13">Affiq Rahman</text>
+
+  <!-- wording unchanged -->
+  <text x="600" y="151" text-anchor="middle"
+        font-family="Verdana, Arial, sans-serif"
+        font-size="24"
+        fill="url(#accentText)">
+    Software Product Builder • Systems • Automation
+  </text>
+
+  <text x="600" y="188" text-anchor="middle"
+        font-family="Verdana, Arial, sans-serif"
+        font-size="22"
+        fill="#7EDCFF" fill-opacity="0.18"
+        filter="url(#softGlow)">
+    Full-Stack Engineering • Developer Tooling
+  </text>
+
+  <text x="600" y="188" text-anchor="middle"
+        font-family="Verdana, Arial, sans-serif"
+        font-size="22"
+        fill="#92D9FF">
+    Full-Stack Engineering • Developer Tooling
+    <animate attributeName="opacity" values="0.76;1;0.76" dur="3.1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- sparse foreground particles -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3.5s" repeatCount="indefinite"/>
-    <text x="600" y="105" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
-      Affiq Rahman
-    </text>
-    <text x="600" y="155" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" fill="#a8b3cf">
-      Software Product Builder • Systems • Automation
-    </text>
-    <text x="600" y="197" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#8bd3ff">
-      Full-Stack Engineering • Developer Tooling
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
-    </text>
+    <circle cx="94" cy="61" r="1.6" fill="#6EDBFF" fill-opacity="0.65">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1110" cy="185" r="1.7" fill="#AE91FF" fill-opacity="0.65">
+      <animate attributeName="opacity" values="0.75;0.18;0.75" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1043" cy="45" r="1.2" fill="#D9E7FF" fill-opacity="0.45">
+      <animate attributeName="opacity" values="0.18;0.65;0.18" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="146" cy="211" r="1.2" fill="#D9E7FF" fill-opacity="0.42">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <rect x="22" y="22" width="1156" height="216" rx="22" stroke="#26314f" stroke-width="2"/>
+  <!-- premium outer frame -->
+  <rect x="20" y="20" width="1160" height="220" rx="24" stroke="#1D2639" stroke-width="1.5"/>
+  <path d="M64 20H1136" stroke="url(#edgeLight)" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
 </svg>
